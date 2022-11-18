@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "fdbf7b9a0a4bf831",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4f10f5a311b2dad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b743ba1aecb17bb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 5 - Capitolo 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e266624c0b439f09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 5 - Capitolo 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b6c8081032ac940",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 8 - Capitolo 4 - Parte 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1be10e8dfc696a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 8 - Capitolo 4 - Parte 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "07a7b33b210d2470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 9 - Capitolo 3 - Strutture dati elementari.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75e6b7116c21741d",
+    "type": "split",
+    "children": [
+      {
+        "id": "01d256ace002c6d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ac91d6233f06b37",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8470784b84596582",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12a995f40ec63420",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "5a124477bca18aa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "a453cf63c9834a0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ca638efb13838fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e140beb8500bc45e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 9 - Capitolo 3 - Strutture dati elementari.md"
+              }
+            }
+          },
+          {
+            "id": "9f9f30cda55d3066",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "22aba09aa967873c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 9 - Capitolo 3 - Strutture dati elementari.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4bb03d6f1e5bf3f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 9 - Capitolo 3 - Strutture dati elementari.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "ec741d3046e92e21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d07932f5d8a1338d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333.5
+  },
+  "active": "07a7b33b210d2470",
+  "lastOpenFiles": [
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 9 - Capitolo 3 - Strutture dati elementari.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 6 - Capitolo 4.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 8 - Capitolo 4 - Parte 2.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 7 - Capitolo 4 - Delimitazioni inferiori e superiori.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 2 - Capitolo 2 - Modelli di calcolo e notazione asintotica.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Esercitazione - 10 Novembre 2022.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 3, 4 - Capitolo 2, 3.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 1 - Capitolo 1 - Introduzione formale agli algoritmi.md",
+    "2o anno/Linguaggi e Metodologie di Programmazione/Lezione 1 - Introduzione.md",
+    "2o anno/Linguaggi e Metodologie di Programmazione/Lezione 3 - Concetti di programmzione orientata agli oggetti.md"
+  ]
+}
