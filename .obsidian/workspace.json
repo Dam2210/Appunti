@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e88e4da1225e4e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -157,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 10 - Esercitazione 3.md"
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md"
               }
             }
           },
@@ -175,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 10 - Esercitazione 3.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 10 - Esercitazione 3.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,17 +231,17 @@
     "direction": "horizontal",
     "width": 405.5
   },
-  "active": "a523b31f6d92ea12",
+  "active": "0e88e4da1225e4e3",
   "lastOpenFiles": [
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 9 - Capitolo 3 - Strutture dati elementari.md",
-    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 6 - Capitolo 4.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 8 - Capitolo 4 - Parte 2.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 7 - Capitolo 4 - Delimitazioni inferiori e superiori.md",
-    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 2 - Capitolo 2 - Modelli di calcolo e notazione asintotica.md",
-    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Esercitazione - 10 Novembre 2022.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 6 - Capitolo 4.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 5 - Capitolo 4.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 3, 4 - Capitolo 2, 3.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 2 - Capitolo 2 - Modelli di calcolo e notazione asintotica.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 1 - Capitolo 1 - Introduzione formale agli algoritmi.md",
-    "2o anno/Linguaggi e Metodologie di Programmazione/Lezione 1 - Introduzione.md",
-    "2o anno/Linguaggi e Metodologie di Programmazione/Lezione 3 - Concetti di programmzione orientata agli oggetti.md"
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 10 - Esercitazione 3.md"
   ]
 }

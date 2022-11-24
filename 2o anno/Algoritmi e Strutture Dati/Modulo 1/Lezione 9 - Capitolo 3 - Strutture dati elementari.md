@@ -5,7 +5,7 @@ Tipo di dato:
 - Specifica una collezione di oggetti e delle operazioni di interesse su tale collezione (es. inserisci, cancella, cerca)
 
 Struttura dati:
-- Organizzazione dei dati che permette di memorizzare la collezione e supportare le operazioni di un tipo di dato usando meno risorse di calzolo possibile
+- Organizzazione dei dati che permette di memorizzare la collezione e supportare le operazioni di un tipo di dato usando meno risorse di calcolo possibile
 
 ## Il tipo di dato Dizionario
 ![[immagine115.png]]
