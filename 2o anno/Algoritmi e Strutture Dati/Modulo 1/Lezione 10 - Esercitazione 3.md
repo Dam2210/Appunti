@@ -16,4 +16,4 @@
 ![[immagine168.png]]
 ![[immagine169.png]]
 
-Esercizi: http://www.mat.uniroma2.it/~guala/esercitazione_3_2021.pdf
+Esercizi: http://www.mat.uniroma2.it/~guala/esercitazione_3_2021.pdf  
