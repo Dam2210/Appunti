@@ -152,3 +152,80 @@ Due idee:
 ## Altezza di alberi AVL
 
 Si può dimostrare che un albero AVL con $n$ nodi ha altezza $O(log \ n)$.
+
+Idea della dimostrazione: considerare, tra tutti gli AVL, i più sbilanciati.
+
+Albero di Fibonacci di altezza $h$:
+albero AVL di altezza $h$ con il minimo numero di nodi $n_h$.
+
+minimizzare il numero di nodi fissata l'altezza è uguale a massimizzare l'altezza fissato il numero di nodi.
+
+Intuizione: Se gli alberi di Fibonacci hanno altezza $O(log \ n)$ allora tutti gli alberi AVL hanno altezza $O(log \ n)$.
+
+Un esempio:
+Come è fatto un albero di Fibonacci di altezza 2?
+
+![[immagine192.png]]
+
+... Alberi di Fibonacci per valori piccoli di altezza ...
+
+![[immagine193.png]]
+![[immagine194.png]]
+![[immagine195.png]]
+
+Posso usare un albero AVL per implementare un dizionario?
+
+![[immagine196.png]]
+
+Domanda:
+di quanto e quali fattori di bilanciamento cambiano a fronte di un inserimento/cancellazione?
+
+Se parto da un albero AVL e inserisco/cancello un nodo:
+- (quali) cambiano solo i fattori di bialnciamnto dei nodi lungo il cammino radice-nodo inserito/cancellato
+- (quanto) i fattori di bilanciamento cambiano di +/- 1
+
+## Implementazione delle operazioni
+
+- L'operazione search procede come in un BST
+- Ma inserimenti e cancellazioni potrebbero sbilanciare l'albero
+- $\rightarrow$ Manteniamo il bilanciamento tramite opportune rotazioni
+
+## Rotazione di base verso destra/sinistra sul nodo v/u
+
+![[immagine197.png]]
+
+## Ribilanciamnto tramite rotazioni
+
+- Le rotazioni sono effettuate su nodi sbilanciati
+- Sia v un nodo di profondità massima (nodo critico) con fattore di bilanciamento $\beta (v) \pm 2$ 
+- Esiste un sottoalbero T di v che lo sbilancia
+- A seconda della posizione di T si hanno 4 casi:
+![[immagine198.png]]
+- I quattro casi sono simmetrici a coppie 
+$[\beta (v) = \pm 2, \ altezza \ T_1 = h+1]$
+
+## Caso SS
+
+- L'altezza di T(v) è $h+3$, l'altezza di T(u) è $h+2$, l'altezza di $T_3$ è $h$, e l'altezza di $T_1$ è $h+1\rightarrow \beta(v)= +2$ e lo sbilanciamento è provocato da $T_1$ 
+![[immagine199.png]]
+- Si applica una rotazione semplice verso destra su v; 2 sottocasi possibili:
+	1) l'altezza di $T_2$ è $h \rightarrow$ l'altezza dell'albero coinvolto nella rotazione passa da $h+3$ a $h+2$
+	2) l'altezza di $T_2$ è $h+1 \rightarrow$ l'altezza dell'albero coinvolto nella rotazione rimane pari a $h+3$
+![[immagine200.png]]
+
+## Osservazioni sul caso SS
+
+- Dopo la rotazione l'albero è bilanciato (tutti i fattori di bilanciamento sono in modulo $\leq 1$)
+- L'inserimento di un elemento nell'AVL (ovvero, l'aggiunta di una foglia a un albero bilanciato) può provocare solo il sottocaso 1) (perchè altrimenti l'AVL era già sbilanciato!)
+- Invece, la cancellazione di un elemento dall'AVL (che necessariemente fa diminuire l'altezza di qualche sottoalbero) può provocare entrambi i casi (ad esempio, se cancello un elemento ho abbassato l'altezza di $T_3$)
+- Nel caso 1), dopo la rotazione, l'albero diminuisce la sua altezza di uno
+$[\beta(v)=+2, \ altezza \ T_1 = h]$ (che implica altezza T(w) = $h+1$)
+
+## Caso SD
+
+- l'altezza di T(v) è $h+3$, laltezza di $T(z)$è $h+2$, l'altezza di $T_1$ è $h$, l'altezza di $T_4$ è $h$, e l'altezza di $T(w)$ è $h+1 \rightarrow$ $\beta(v)=+2$ e $\beta(z)=-1$ cioè lo sbilanciamento è provocato dal sottoalbero destro di $z$.
+![[immagine201.png]]
+- Applicare due rotazioni semplici: una verso sinistra sul figlio sinistro del nodo critico (nodo z), l'altra verso destra sul nodo critico (nodo v).
+
+## Caso SD
+
