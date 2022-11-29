@@ -229,3 +229,52 @@ $[\beta(v)=+2, \ altezza \ T_1 = h]$ (che implica altezza T(w) = $h+1$)
 
 ## Caso SD
 
+![[immagine202.png]]
+
+- L'altezza dell'albero dopo la rotazione passa da $h+3$ a $h+2$, poichè $T_2$ e $T_3$ sono alti al più $h$, e il fattore di bilanciamento di $w$ diventa $0$, mentre i fattori di bilanciamento di $z$ e $v$ sono $0$ oppure $\pm 1$ 
+- Il caso SD può essere provocato sia da inserimenti (in $T_2$ o $T_3$), sia da cancellazioni che abbassano di $1$ l'altezza di $T_4$.
+
+## insert(elem e, chiave k)
+
+1. Crea un nuovo nodo $u$ con elem = e e chiave = k
+2. Inserisci $u$ come un BST
+3. Ricalcola i fattori di bilanciamento dei nodi nel cammino della radice a $u$: sia $v$ il più profondo nodo con fattore di bilanciamento pari a $\pm 2$ (nodo critico)
+4. Esegui una rotazione opportuna su $v$ 
+
+>Oss: un solo ribilanciamento è sufficiente, poichè l'altezza dell'albero coinvolto diminuisce di $1$ (sottocaso 1) del caso SS o DD, o casi SD o DS), e quindi torna ad essere uguale all'altezza che aveva prima dell'inserimento.
+
+![[immagine203.png]]
+![[immagine204.png]]
+![[immagine205.png]]
+
+## delate(elem e)
+
+1. Cancella il nodo in un BTS
+2. Ricalcola il fattore di bilanciamento del padre del nodo eliminato fisicamente (che potrebbe essere diverso dal nodo contenente e), ed esegui l'opportuna rotazione semplice o doppia ove necessario.
+3. Ripeti questo passo, sino ad arrivare eventualmente alla radice dell'AVL:
+	- Se l'altezza del sottoalbero appena ribilanciato è uguale a quella che aveva prima della cancellazione, termina. Invece, se tale altezza è diminuita, risali verso l'alto (cioè vai nel padre del sottoalbero appena ribilanciato), calcola il fattore di bilanciamento, e applica l'opportuno ribilanciamento.
+
+>Oss: potrebbero essere necessarie $O(log \ n)$ rotazioni: infatti eventuali diminuzioni di altezza indotte dalle rotazioni possono prorogare lo sbilanciamento verso l'alto nell'albero (l'altezza del sottoalbero in cui è avvenuta la rotazione diminuisce di $1$ rispetto a quella che aveva prima della cancellazione)
+
+![[immagine206.png]]
+![[immagine207.png]]
+![[immagine208.png]]
+![[immagine209.png]]
+![[immagine210.png]]
+
+## Costo delle operazioni
+
+- Tutte le operazioni hanno costo $O(log \ n)$ poichè l'altezza dell'albero è $O(log \ n)$ e ciascuna rotazione richiede solo tempo costante.
+
+## Classe albero AVL
+
+![[immagine211.png]]
+
+## ... Qualche dettaglio importante.
+
+Nell'analisi della complessità dell'operazione di insert/delete abbiamo implicitamente usato le seguenti proprietà:
+1. dato un nodo $v$, è possibile conoscere $\beta(v)$ in tempo $O(1)$;
+2. dopo aver inserito/cancellato un nodo $v$ nell'albero come se fosse un semplice BST, è possibile ricalcolare i fattori di bilanciamento dei nodi lungo il cammino da $v$ alla radice in tempo complessivo $O(log \ n)$;
+3. nell'eseguire le rotazioni necessarie per ribilanciare l'albero è possibile aggiornare anche i fattori di bilanciamento dei nodi coinvolti in tempo complessivo $O(log \ n)$ 
+
+Esercizio fine lezione: http://www.mat.uniroma2.it/~guala/cap6_2021.pdf
