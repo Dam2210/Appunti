@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 5 - Capitolo 4.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 10 - Esercitazione 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af9a2af169327ed6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 12 - Capitolo 8 - Il problema della coda con priorità.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md"
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 12 - Capitolo 8 - Il problema della coda con priorità.md"
               }
             }
           },
@@ -187,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 12 - Capitolo 8 - Il problema della coda con priorità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md",
+                "file": "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 12 - Capitolo 8 - Il problema della coda con priorità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,17 +243,17 @@
     "direction": "horizontal",
     "width": 405.5
   },
-  "active": "0e88e4da1225e4e3",
+  "active": "af9a2af169327ed6",
   "lastOpenFiles": [
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 12 - Capitolo 8 - Il problema della coda con priorità.md",
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 10 - Esercitazione 3.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 9 - Capitolo 3 - Strutture dati elementari.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 8 - Capitolo 4 - Parte 2.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 7 - Capitolo 4 - Delimitazioni inferiori e superiori.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 6 - Capitolo 4.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 5 - Capitolo 4.md",
     "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 3, 4 - Capitolo 2, 3.md",
-    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 2 - Capitolo 2 - Modelli di calcolo e notazione asintotica.md",
-    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 1 - Capitolo 1 - Introduzione formale agli algoritmi.md",
-    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 11 - Capitolo 6 - Il Problema del Dizionario.md",
-    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 10 - Esercitazione 3.md"
+    "2o anno/Algoritmi e Strutture Dati/Modulo 1/Lezione 2 - Capitolo 2 - Modelli di calcolo e notazione asintotica.md"
   ]
 }
