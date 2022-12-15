@@ -2,5 +2,6 @@
   "accentColor": "",
   "cssTheme": "Obsidian gruvbox",
   "textFontFamily": "Georgia",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSize": 18
 }

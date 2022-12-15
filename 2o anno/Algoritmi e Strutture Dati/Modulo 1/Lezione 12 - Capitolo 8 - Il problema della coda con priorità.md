@@ -237,3 +237,27 @@ Utile per ripristinare la proprietà di unicità in un heap binomiale (ipotizzia
 
 ## Heap di Fibonacci
 
+Heap binomiale rilassato: si ottiene da un heap binomiale rilassando la proprietà di unicità dei $B_i$ ed utilizzando un atteggiamento più "pigro" durante l'operazione insert (perchè ristrutturare subito la foresta quando potremmo farlo dopo?)
+
+Heap di Fibonacci: si ottiene da un heap binomiale rilassato indebolendo la proprietà di struttura dei $B_i$ che non sono più necessariamente alberi binomiali
+
+Analisi sofisticata: i tempi di esecuzione sono ammortizzati su sequenze di operazioni, cioè dividendo il costo complessivo della sequenza di operazioni per il numero di operazioni della sequenza 
+
+## Conclusioni: tabella riassuntiva
+
+![[immagine260.png]]
+
+>L'analisi per d-Heap e Heap Binomiali è nel caso peggiore, mentre quella per gli Heap di Fibonacci è ammortizzata (per le operazioni asteriscate)
+
+## Analisi ammortizzata
+
+- Il costo ammortizzato di un'operazione è il costo "medio" rispetto a una sequenza qualsiasi di operazioni.
+- Esempio: se un'operazione ha costo ammortizzato costante e eseguo una sequenza (qualsiasi) di $k$ operazioni è possibile che il costo di una singola operazione può essere costante, ma l'intera sequenza costerà $O(k)$. 
+- Diverso dal costo medio: non c'è nessuna distribuzione di probabilità (sulla sequenza da eseguire) e l'algoritmo è un algoritmo deterministico.
+- Molto utile quando si vogliono buone prestazioni sull'intera sequenza e non garanzie sulla singola operazione 
+	- Esempio: progettare algoritmi veloci attraverso strutture dati efficienti
+
+per esempio nel nostro caso...
+
+![[immagine261.png]]
+
